@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53f54c81-e840-4219-86c4-23def2dc02a1">
+  <producedTypes>
+    <selectionType typeId="a2cb6878-0702-4d2a-bb08-275a194e7f04" valueTypeId="06d39784-2ded-4575-85ac-b2d1df53cc1a"/>
+    <listType typeId="adfca6c6-8b89-4d7b-bdb4-df9293a3e9df" valueTypeId="087c1b4b-f987-4982-b824-f1ccf16a6bdc"/>
+    <managerType typeId="26430609-788a-421d-9e26-81f9a4d347a2" valueTypeId="d41a0af3-7cfc-4313-aab8-126c84153968"/>
+  </producedTypes>
+  <name>ОбщийЖурналДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общий журнал документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.РеализацияТоваровИУслуг</registeredDocuments>
+  <registeredDocuments>Document.ПоступлениеТоваровИУслуг</registeredDocuments>
+  <registeredDocuments>Document.ПриходныйКассовыйОрдер</registeredDocuments>
+  <registeredDocuments>Document.РасходныйКассовыйОрдер</registeredDocuments>
+  <registeredDocuments>Document.СписаниеСРасчетногоСчета</registeredDocuments>
+  <registeredDocuments>Document.ПоступлениеНаРасчетныйСчет</registeredDocuments>
+  <columns uuid="76a2ccd1-fb32-483f-a9b9-611be587565a">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.Контрагент</references>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.Контрагент</references>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Контрагент</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Контрагент</references>
+    <references>Document.СписаниеСРасчетногоСчета.Attribute.Контрагент</references>
+    <references>Document.ПоступлениеНаРасчетныйСчет.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="4e914b58-7000-4ccf-8b81-c0669eefc807">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.Договор</references>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.Договор</references>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Договор</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Договор</references>
+    <references>Document.ПоступлениеНаРасчетныйСчет.Attribute.Договор</references>
+    <references>Document.СписаниеСРасчетногоСчета.Attribute.Договор</references>
+  </columns>
+  <columns uuid="a7d9f79a-5603-4b62-afad-4b4c20e97b41">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.Сумма</references>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.Сумма</references>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Сумма</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Сумма</references>
+    <references>Document.ПоступлениеНаРасчетныйСчет.Attribute.Сумма</references>
+    <references>Document.СписаниеСРасчетногоСчета.Attribute.Сумма</references>
+  </columns>
+  <columns uuid="57eb5d78-83f8-4fc4-9b1e-368c73cd07a9">
+    <name>НДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДС</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.НДС</references>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.НДС</references>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.НДС</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.НДС</references>
+    <references>Document.СписаниеСРасчетногоСчета.Attribute.НДС</references>
+    <references>Document.ПоступлениеНаРасчетныйСчет.Attribute.НДС</references>
+  </columns>
+  <columns uuid="55e2d7ca-1709-429c-a9be-904990a99f73">
+    <name>СуммаСНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма с НДС</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.СуммаСНДС</references>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.СуммаСНДС</references>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.СуммаСНДС</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.СуммаСНДС</references>
+    <references>Document.СписаниеСРасчетногоСчета.Attribute.СуммаСНДС</references>
+    <references>Document.ПоступлениеНаРасчетныйСчет.Attribute.СуммаСНДС</references>
+  </columns>
+  <columns uuid="16b668c4-831a-44e5-a832-965588e9c718">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.Автор</references>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.Автор</references>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Автор</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Автор</references>
+    <references>Document.СписаниеСРасчетногоСчета.Attribute.Автор</references>
+    <references>Document.ПоступлениеНаРасчетныйСчет.Attribute.Автор</references>
+  </columns>
+  <columns uuid="2f08d2d9-34dd-45f8-ae59-95a5d42ae499">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Комментарий</references>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.Комментарий</references>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.Комментарий</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Комментарий</references>
+    <references>Document.СписаниеСРасчетногоСчета.Attribute.Комментарий</references>
+    <references>Document.ПоступлениеНаРасчетныйСчет.Attribute.Комментарий</references>
+  </columns>
+</mdclass:DocumentJournal>

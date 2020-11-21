@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cac0ff10-8df5-4fe5-96f0-4c0f6bce8397">
+  <name>ИспользоватьНесколькоКасс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать несколько касс</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

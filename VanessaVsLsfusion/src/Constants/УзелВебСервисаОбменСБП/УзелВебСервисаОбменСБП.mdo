@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b41a5339-3609-47b9-93b6-3551382a088d">
+  <producedTypes>
+    <managerType typeId="5aa267a8-a1d0-4ee2-9a7a-7f942733c140" valueTypeId="0feea5fe-13ed-47e9-ba30-cfeef6b42101"/>
+    <valueManagerType typeId="7fe5edd7-db11-4810-9255-2c8dd5e45a22" valueTypeId="d3695b9e-bbe4-49df-bbcc-404ad5b5265c"/>
+    <valueKeyType typeId="47ed532d-eef7-4a13-ad17-31994bd86127" valueTypeId="f91ef657-407d-4216-9cc1-5317b9fb88eb"/>
+  </producedTypes>
+  <name>УзелВебСервисаОбменСБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Узел веб-сервиса &quot;Обмен с БП&quot;</value>
+  </synonym>
+  <type>
+    <types>ExchangePlanRef.ОбменСБП</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

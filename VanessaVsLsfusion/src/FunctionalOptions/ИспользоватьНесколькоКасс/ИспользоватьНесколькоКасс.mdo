@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1abc599-e77a-4ece-a990-69eb59259bc4">
+  <name>ИспользоватьНесколькоКасс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать несколько касс</value>
+  </synonym>
+  <location>Constant.ИспользоватьНесколькоКасс</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Кассы</content>
+</mdclass:FunctionalOption>

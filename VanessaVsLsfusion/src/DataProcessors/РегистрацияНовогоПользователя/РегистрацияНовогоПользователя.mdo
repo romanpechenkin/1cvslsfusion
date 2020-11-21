@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38f28e11-bb5d-4272-abf3-da55a8573d8a">
+  <producedTypes>
+    <objectType typeId="1b4b64f6-a0fd-47c3-b88d-5c959985997b" valueTypeId="a83f8e5f-137a-4c9c-8c10-6bfd81e97c95"/>
+    <managerType typeId="4dd61011-521f-4f22-84db-8434fe0dd4d9" valueTypeId="7456c292-626d-4fcd-b3ba-2546d97fdc0d"/>
+  </producedTypes>
+  <name>РегистрацияНовогоПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация нового пользователя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РегистрацияНовогоПользователя.Form.Форма</defaultForm>
+  <attributes uuid="a97faf1a-1423-451c-9144-cc951fdd0c1b">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="b1a4a878-44ba-4e41-941a-d94390791e0b">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="5331e08b-2b65-4303-a7a4-3d10d9e2abb7">
+    <name>Подтверждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ee7d1145-82af-4c5f-aed2-99b35372dff5">
+    <name>ОтображатьПароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать пароль</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="790b4e84-6918-4aa0-9990-9c47163530bb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

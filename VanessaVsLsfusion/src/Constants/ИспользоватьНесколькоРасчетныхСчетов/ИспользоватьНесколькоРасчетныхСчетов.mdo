@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cae5693-4efe-4f96-8be9-970adf6748cb">
+  <producedTypes>
+    <managerType typeId="979e5025-3e9f-4772-bf00-68436044fe25" valueTypeId="ff87e534-2797-42f6-90ec-aab0ed256c1f"/>
+    <valueManagerType typeId="cff9fa7e-c437-4f79-a8ad-ee48efec678a" valueTypeId="a39720fe-673c-424e-b5fa-146ef9e44543"/>
+    <valueKeyType typeId="2bb34541-8ecd-460c-b15f-653bbf8d4978" valueTypeId="c673e765-f2eb-41c8-b2ff-8d9bc6c5bca1"/>
+  </producedTypes>
+  <name>ИспользоватьНесколькоРасчетныхСчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать несколько расчетных счетов</value>
+  </synonym>
+  <dataHistory>Use</dataHistory>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ИспользоватьНесколькоРасчетныхСчетов</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
+</mdclass:Constant>

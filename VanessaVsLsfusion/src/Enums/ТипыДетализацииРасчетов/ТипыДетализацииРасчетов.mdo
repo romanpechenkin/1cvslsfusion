@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e452ef6-9cab-445e-9d6e-d2edf0ac7450">
+  <producedTypes>
+    <refType typeId="bd5ecc0e-4c9d-4590-9e50-e81b322d0298" valueTypeId="bc244eeb-1596-4e44-9390-515f77d425c6"/>
+    <listType typeId="75015b04-a99b-4d8f-b7b9-e327dceafd03" valueTypeId="088e7b9d-2e2a-44a5-8930-796a3dcc14d1"/>
+    <managerType typeId="26596b70-e775-40ae-9e08-a036ebad6b36" valueTypeId="9390419a-db75-4879-bb98-ff7808975458"/>
+  </producedTypes>
+  <name>ТипыДетализацииРасчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы детализации расчетов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4b2367bd-dd4e-4a5b-9159-0d1d492fbc8e">
+    <name>ПоДоговору</name>
+    <synonym>
+      <key>ru</key>
+      <value>По договору</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="031d8575-c829-47ff-966c-a4b2083b4ebb">
+    <name>ПоРасчетнымДокументам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По расчетным документам</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

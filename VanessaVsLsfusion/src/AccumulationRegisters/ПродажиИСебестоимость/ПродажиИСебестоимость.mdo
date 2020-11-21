@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9c33d95-b1a5-4e2f-8c1d-d4b6aee225f8">
+  <producedTypes>
+    <selectionType typeId="ad606ff4-1c49-44d9-9203-2fff54c5ecf7" valueTypeId="d6b9027e-b33f-4319-9a61-d1dd517321a6"/>
+    <listType typeId="1322db20-c670-4d93-be9d-f759c7540f60" valueTypeId="e449b58a-5b82-4408-96f9-e162be882781"/>
+    <managerType typeId="6a633d92-2a19-4756-85cf-8286a130246d" valueTypeId="ca68b621-7895-4b32-92ee-55daea79dc36"/>
+    <recordSetType typeId="e292ceb1-5cbf-4365-9ead-d95d21055e40" valueTypeId="9354f984-143b-4923-be3e-b5a1f98d6ef4"/>
+    <recordKeyType typeId="9a280106-cbf9-4a0d-b706-aff67a884330" valueTypeId="ee834cc2-1e4d-4d7b-b965-c3275a6db2b1"/>
+    <recordType typeId="4cbe069a-bf2d-40dd-a920-1025d138bc99" valueTypeId="957bdc74-23ca-4529-a869-dd5f75431011"/>
+  </producedTypes>
+  <name>ПродажиИСебестоимость</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи и себестоимость</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>AccumulationRegister.ПродажиИСебестоимость.Form.ФормаСписка</defaultListForm>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="4947cc84-2931-4eb6-8e0f-3a08458a72dc">
+    <name>СуммаПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма продажи</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="ddfc0727-d4fe-4c69-8765-982e0e31319a">
+    <name>СуммаСебестоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма себестоимости</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="86732c3f-3a23-4f0e-b56b-aea111a8f07f">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="eef4f221-f06d-4fa0-931a-b9f4d23700b0">
+    <name>Партия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПоступлениеТоваровИУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="de0fe28c-3eef-4823-b1d7-bd307d013093">
+    <name>Покупатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="364cf6db-2da4-4330-902e-5274ea8dff48">
+    <name>ДоговорСПокупателем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор с покупателем</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Договоры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>AccumulationRegister.ПродажиИСебестоимость.Dimension.Покупатель</field>
+    </choiceParameterLinks>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="499207be-ff07-42c6-86f9-52c5d27a2da4">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="fad1b654-384c-420e-8623-caeedd1094c4">
+    <name>ДоговорСПоставщиком</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор с поставщиком</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Договоры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>AccumulationRegister.ПродажиИСебестоимость.Dimension.Поставщик</field>
+    </choiceParameterLinks>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="14e0c6ba-263b-4211-b969-89f08a2fac68">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

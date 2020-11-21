@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c456cb7-f304-40bc-aaf3-b94f49d936d8">
+  <producedTypes>
+    <managerType typeId="3b54785c-0cbd-4299-a671-a8f59933c2b9" valueTypeId="76887f03-0e0f-4b1f-905a-978f3e47514e"/>
+    <valueManagerType typeId="93530ac1-4fbf-4c68-b48b-ca2d6b7018c4" valueTypeId="522ff637-679b-4747-bfd1-85b9089ffe9d"/>
+    <valueKeyType typeId="3ede8f6c-3c4e-4eaa-bb68-5e49ee5268ae" valueTypeId="91d9bbe0-64de-44d2-a963-df64d004cbbd"/>
+  </producedTypes>
+  <name>КассаПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Касса по умолчанию</value>
+  </synonym>
+  <dataHistory>Use</dataHistory>
+  <type>
+    <types>CatalogRef.Кассы</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
+</mdclass:Constant>

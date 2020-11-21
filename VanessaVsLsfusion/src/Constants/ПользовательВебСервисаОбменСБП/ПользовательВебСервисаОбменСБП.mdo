@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="557e1b49-d077-4e09-a672-1495b7b84ae0">
+  <producedTypes>
+    <managerType typeId="e03c5ce7-551a-43da-a91c-a1a1827dbe68" valueTypeId="4d32ba85-a44b-4dbd-a715-8b26707796d1"/>
+    <valueManagerType typeId="690304c0-d005-4aea-b3a5-732b7cfa02b0" valueTypeId="cbcc9799-8f86-4972-a203-7c6519f5c94a"/>
+    <valueKeyType typeId="70010335-170c-4203-a31b-f61cd6b40b7c" valueTypeId="1ac3004c-d54e-466a-bf35-b9385b51a193"/>
+  </producedTypes>
+  <name>ПользовательВебСервисаОбменСБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователь веб-сервиса &quot;Обмен с БП&quot;</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

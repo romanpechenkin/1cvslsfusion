@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c25b6681-2369-472f-9c94-db9862309df5">
+  <producedTypes>
+    <containerType typeId="8aaea6f5-0216-4dcc-a91e-70f1f4c2df8a" valueTypeId="45fa2096-d112-4d45-864e-a883ac5b24eb"/>
+  </producedTypes>
+  <name>РасчетныйДокумент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчетный документ</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ПоступлениеТоваровИУслуг</types>
+  </type>
+</mdclass:DefinedType>

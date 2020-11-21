@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="087128b6-0c6f-4185-8da6-89f0263a6988">
+  <producedTypes>
+    <refType typeId="a215c94f-34c2-48ec-b367-a8cc374d9395" valueTypeId="03a5a657-c74f-40ba-b709-16aff8602c31"/>
+    <listType typeId="08f17be7-fd0a-4efc-b644-e3baca482e82" valueTypeId="0bc82b88-b971-4df9-9edf-0697896bddec"/>
+    <managerType typeId="6d1e1831-6b9c-4ad5-91b4-366d0ac6c8eb" valueTypeId="4fe56807-5031-479f-a361-017da5110bb5"/>
+  </producedTypes>
+  <name>СтавкиНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки НДС</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="454eeadb-fad4-4376-8955-ad745da5ea58">
+    <name>БезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без НДС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1cf45f1a-6c1e-4be0-b271-ebb785119f98">
+    <name>ДесятьПроцентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>10 %</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e0a40f6-6273-45e0-9781-5fb9d3afa574">
+    <name>ВосемнадцатьПроцентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>18 %</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="653c5fee-fa54-421d-8986-9e65ccb8488a">
+    <name>ДвадцатьПроцентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>20 %</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

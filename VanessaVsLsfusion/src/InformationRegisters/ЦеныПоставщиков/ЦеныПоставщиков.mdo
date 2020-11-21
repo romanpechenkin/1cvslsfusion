@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0190a848-5714-4949-8238-c7466b55724a">
+  <producedTypes>
+    <selectionType typeId="0ce23ad6-a58b-481e-b900-2c6f1487a9f6" valueTypeId="9efa8b63-e5cc-4d80-b015-683c4358190b"/>
+    <listType typeId="65bb17d3-723d-4f9b-b417-eb37e86f3099" valueTypeId="6dbb7062-d67b-4a7e-a2d3-ba1c08ebbdfb"/>
+    <managerType typeId="7e656693-02f0-428b-81c7-960c3a83eaa1" valueTypeId="8c8efb4f-aaf9-435e-820e-9c7ec6bfeaf5"/>
+    <recordSetType typeId="e25cecf1-9e11-41a5-8a4c-8756c3370fc0" valueTypeId="994c1eab-4764-42d7-9ac0-3177b5a521c4"/>
+    <recordKeyType typeId="260005ed-ea31-4ba3-b661-58717ab38b38" valueTypeId="b2024030-1ab6-46b5-ab5d-51fcbd59716b"/>
+    <recordType typeId="dc082baf-402e-449a-a2da-e86c2357148b" valueTypeId="c29e9371-f18f-4235-8387-187dde131aea"/>
+    <recordManagerType typeId="7934705c-707b-4ca8-82d8-5df17c7d390b" valueTypeId="1bd3056c-5ddf-48d9-8266-dfaf6b6b78f7"/>
+  </producedTypes>
+  <name>ЦеныПоставщиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены поставщиков</value>
+  </synonym>
+  <dataHistory>Use</dataHistory>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ЦеныПоставщиков.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <enableTotalsSliceFirst>true</enableTotalsSliceFirst>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
+  <resources uuid="797e8489-d525-4599-bb84-bc9404017dce">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="a516543d-b9ec-41dd-ba24-d8e90b512559">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="780fe8f1-e58c-4e2e-b31f-f5c4bb279614">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="79c6f7d4-f949-4885-8f72-2f16ba85398c">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Договоры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.ЦеныПоставщиков.Dimension.Контрагент</field>
+    </choiceParameterLinks>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="1094a19d-f048-4c7b-bec3-4158eb8b3f4c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

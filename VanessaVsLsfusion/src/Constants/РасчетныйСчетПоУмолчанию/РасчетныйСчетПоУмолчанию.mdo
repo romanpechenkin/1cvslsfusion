@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="820a3baa-4d28-465d-8d1c-7fdd615102f9">
+  <producedTypes>
+    <managerType typeId="3945d553-e085-43f8-ae34-74118d782b83" valueTypeId="7a04bc11-bc2b-48ee-b17c-06d7751d4da3"/>
+    <valueManagerType typeId="9952c0dd-c6df-4342-b66f-c86b7fd1c8f1" valueTypeId="d599b9a3-b493-4df7-a0f4-a759c72b30a2"/>
+    <valueKeyType typeId="b316fd92-18e7-4d7f-b744-1d34137a1505" valueTypeId="d666f695-059c-4624-84ce-eb70f3bb7e7d"/>
+  </producedTypes>
+  <name>РасчетныйСчетПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчетный счет по умолчанию</value>
+  </synonym>
+  <dataHistory>Use</dataHistory>
+  <type>
+    <types>CatalogRef.РасчетныеСчета</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
+</mdclass:Constant>

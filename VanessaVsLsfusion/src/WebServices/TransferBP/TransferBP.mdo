@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5338604a-7254-4d56-9441-56be1b365494">
+  <name>TransferBP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Transfer BP</value>
+  </synonym>
+  <namespace>TransferBP</namespace>
+  <descriptorFileName>TransferBP.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="4561faa5-b64b-4343-a418-009c3f7114bc">
+    <name>Ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>Ping</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="00172bfe-f63a-4eae-a252-ff265e8beb6b">
+    <name>Get</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>Get</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="14295a35-6ab5-406d-9969-5a88905491d9">
+    <name>DeleteRegistration</name>
+    <synonym>
+      <key>ru</key>
+      <value>Delete registration</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>DeleteRegistration</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+</mdclass:WebService>

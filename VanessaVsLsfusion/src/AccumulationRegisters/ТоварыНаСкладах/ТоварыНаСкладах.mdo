@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e5275c9-5f47-44f8-9783-d35bb3f02a03">
+  <producedTypes>
+    <selectionType typeId="a2b54480-bbf1-43d1-93ac-a0c49db7abf5" valueTypeId="04aecb93-87af-47f5-b2c9-9ff35e633dd5"/>
+    <listType typeId="3fbea232-c7d7-42cd-87d2-69bec9e1dad5" valueTypeId="673f8f7b-4b80-46a4-ad5d-66150355278b"/>
+    <managerType typeId="a701295f-1c7e-4b42-ad5e-5fed0a260801" valueTypeId="3b39acfd-7646-40f3-9df0-f0529c9689a8"/>
+    <recordSetType typeId="c3174f5e-3974-4c7c-8d6e-e295823293a4" valueTypeId="a09a4faa-7017-4af2-aca7-ef6b7ad8480b"/>
+    <recordKeyType typeId="0f8059fe-8c4c-407c-abfd-2004576f5a79" valueTypeId="344a7e1f-2d10-4b92-9818-8a9da5ca1301"/>
+    <recordType typeId="d5b88a9d-4d6f-4820-89cd-a8e2e0e1f801" valueTypeId="db45e62b-699b-44ed-be46-70fb14d60e2f"/>
+  </producedTypes>
+  <name>ТоварыНаСкладах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары на складах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>AccumulationRegister.ТоварыНаСкладах.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="5c3b484a-fcf9-40c9-9da6-1a62a667b279">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Количество</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="338d763a-16e9-4c73-b618-c8f4c205fd8a">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="6193de9c-6c4c-45f2-8651-b5f31dd0f5a0">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="39a1194b-7376-42d3-9cc7-38e1561f842a">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="30032a86-4562-468c-9f5a-ad35204676a0">
+    <name>Партия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПоступлениеТоваровИУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="f2d8fa89-79b1-4b9d-b404-9ed5ee5bb13a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

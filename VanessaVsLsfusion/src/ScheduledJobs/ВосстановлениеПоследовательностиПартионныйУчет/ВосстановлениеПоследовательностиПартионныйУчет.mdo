@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ac9322c-77a4-4394-81cf-b092e69df46b">
+  <name>ВосстановлениеПоследовательностиПартионныйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Восстановление последовательности &quot;Партионный учет&quot;</value>
+  </synonym>
+  <methodName>CommonModule.Сервер.ВосстановлениеПоследовательностиПартионныйУчет</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

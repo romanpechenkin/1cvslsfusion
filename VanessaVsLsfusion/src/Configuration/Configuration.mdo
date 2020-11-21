@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94e9537d-0f9e-44e4-8322-de0e8a973492">
+  <name>VanessaVsLsfusion</name>
+  <synonym>
+    <key>ru</key>
+    <value>1С vs lsFusion</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="1a4d12d2-c8cd-4e48-9e47-e792c5c33d18"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="20e14bee-6403-4d66-830e-e4e4046a65f9"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="47e5371d-4bed-4477-9462-d3baaefc5521"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0ea31971-056e-4f86-8646-9efe985aeeae"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1e9b9238-7079-44a3-a67d-7834110a74c3"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="163ebda1-ac07-431e-91bd-25dded0cde55"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e65353e8-54e9-4c02-a3af-02e454f36504"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
+  <languages uuid="6bf53d89-52e9-4f3c-a390-fee6c62e7623">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Пользователь</roles>
+  <roles>Role.НовыйПользователь</roles>
+  <commonModules>CommonModule.Сервер</commonModules>
+  <commonModules>CommonModule.КлиентСервер</commonModules>
+  <exchangePlans>ExchangePlan.ОбменСБП</exchangePlans>
+  <webServices>WebService.TransferBP</webServices>
+  <scheduledJobs>ScheduledJob.ВосстановлениеПоследовательностиПартионныйУчет</scheduledJobs>
+  <functionalOptions>FunctionalOption.ИспользоватьНесколькоСкладов</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьНесколькоКасс</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьНесколькоРасчетныхСчетов</functionalOptions>
+  <definedTypes>DefinedType.Сумма</definedTypes>
+  <definedTypes>DefinedType.Количество</definedTypes>
+  <definedTypes>DefinedType.РасчетныйДокумент</definedTypes>
+  <constants>Constant.ИспользоватьНесколькоСкладов</constants>
+  <constants>Constant.ИспользоватьНесколькоКасс</constants>
+  <constants>Constant.ИспользоватьНесколькоРасчетныхСчетов</constants>
+  <constants>Constant.СкладПоУмолчанию</constants>
+  <constants>Constant.КассаПоУмолчанию</constants>
+  <constants>Constant.РасчетныйСчетПоУмолчанию</constants>
+  <constants>Constant.АдресВебСервисаОбменСБП</constants>
+  <constants>Constant.ПользовательВебСервисаОбменСБП</constants>
+  <constants>Constant.ПарольВебСервисаОбменСБП</constants>
+  <constants>Constant.УзелВебСервисаОбменСБП</constants>
+  <commonForms>CommonForm.ИспользоватьНесколькоСкладов</commonForms>
+  <commonForms>CommonForm.ИспользоватьНесколькоКасс</commonForms>
+  <commonForms>CommonForm.ИспользоватьНесколькоРасчетныхСчетов</commonForms>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Кассы</catalogs>
+  <catalogs>Catalog.РасчетныеСчета</catalogs>
+  <catalogs>Catalog.Картинки</catalogs>
+  <documents>Document.ПоступлениеТоваровИУслуг</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
+  <documents>Document.ПриходныйКассовыйОрдер</documents>
+  <documents>Document.РасходныйКассовыйОрдер</documents>
+  <documents>Document.ПоступлениеНаРасчетныйСчет</documents>
+  <documents>Document.СписаниеСРасчетногоСчета</documents>
+  <sequences>Sequence.ПартионныйУчет</sequences>
+  <documentJournals>DocumentJournal.ОбщийЖурналДокументов</documentJournals>
+  <enums>Enum.ТипыДетализацииРасчетов</enums>
+  <enums>Enum.СтавкиНДС</enums>
+  <reports>Report.ВедомостьПоТоварамНаСкладах</reports>
+  <reports>Report.ВедомостьПоРасчетамСКонтрагентами</reports>
+  <reports>Report.ВедомостьПоДенежнымСредствам</reports>
+  <reports>Report.ПродажиИСебестоимость</reports>
+  <dataProcessors>DataProcessor.РегистрацияНовогоПользователя</dataProcessors>
+  <dataProcessors>DataProcessor.ОстаткиТоваровНаСкладахАЛяФузина</dataProcessors>
+  <dataProcessors>DataProcessor.ПроверкаВебСервисаОбменСБП</dataProcessors>
+  <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныПокупателям</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РасчетыСКонтрагентами</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДенежныеСредства</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПродажиИСебестоимость</accumulationRegisters>
+</mdclass:Configuration>

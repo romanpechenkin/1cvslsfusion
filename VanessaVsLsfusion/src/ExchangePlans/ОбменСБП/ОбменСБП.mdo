@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ee73c12-5176-47b3-9009-85d75605bdd1" thisNode="d3f1b770-7b07-4739-9619-963f5a82f733">
+  <producedTypes>
+    <objectType typeId="109ada29-d753-4d3c-b139-ceff309bcbf4" valueTypeId="556aac95-1ec7-4131-9e7d-6a33dc611af3"/>
+    <refType typeId="99160074-a17c-44b1-bea3-77dd0a77be57" valueTypeId="5f1b16d0-6a2b-4774-9ce8-32bec04628ee"/>
+    <selectionType typeId="5ceeb2bd-9468-4a04-af9d-5191e13fe40a" valueTypeId="c7ce7ceb-2a15-42db-b700-0cd106798234"/>
+    <listType typeId="743e3027-430f-459a-a165-a6ca61bc58a6" valueTypeId="ae5ae09b-6195-4474-9742-758cd02173af"/>
+    <managerType typeId="f8cfccbc-ef60-48c0-b631-a005a228ada0" valueTypeId="23d64ef1-57e8-4f73-9612-e59cdd9fd491"/>
+  </producedTypes>
+  <name>ОбменСБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с БП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменСБП.StandardAttribute.Code</inputByString>
+  <inputByString>ExchangePlan.ОбменСБП.StandardAttribute.Description</inputByString>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <codeLength>10</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <content>
+    <mdObject>Document.РеализацияТоваровИУслуг</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.ПоступлениеТоваровИУслуг</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
+</mdclass:ExchangePlan>

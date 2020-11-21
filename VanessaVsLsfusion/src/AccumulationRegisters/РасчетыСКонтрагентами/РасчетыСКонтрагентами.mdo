@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0758a057-2988-4698-9692-6f3667a86752">
+  <producedTypes>
+    <selectionType typeId="713a5a6a-11a9-46f6-9233-b58d641908f4" valueTypeId="13fdb81e-b665-4e18-98fc-1e56407c8fda"/>
+    <listType typeId="e821b70a-8aa2-4d83-8874-e3b0747bd416" valueTypeId="4815c048-a5ce-4eff-ac66-c41e65f12463"/>
+    <managerType typeId="b85a4045-5f35-4f71-b99e-3d077f2c8e3a" valueTypeId="c863a43f-0a18-4ffc-8197-57aab260efef"/>
+    <recordSetType typeId="10dab3df-8037-43e0-934e-34c222a3eaa8" valueTypeId="009655b2-47ab-431c-8551-0a18c3b14bc5"/>
+    <recordKeyType typeId="f5b0d6f6-9e8f-418b-9460-cb14658162fe" valueTypeId="a1599063-50a7-493a-aba5-ae48f8e67b25"/>
+    <recordType typeId="312a227f-96c2-4bf3-9fcb-47055af28e12" valueTypeId="3955e7d2-105d-493b-a772-150f1b2818d1"/>
+  </producedTypes>
+  <name>РасчетыСКонтрагентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты с контрагентами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>AccumulationRegister.РасчетыСКонтрагентами.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="4e71ac14-a1f7-48a0-99f3-502a7f6db98a">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="d442c4ce-5675-442d-bfb7-3be8212032ee">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a0530650-624b-4a31-8c39-27c8c30d306c">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Договоры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b337f0bc-bf4a-400d-8167-47a33fb712e9">
+    <name>РасчетныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетный документ</value>
+    </synonym>
+    <type>
+      <types>DefinedType.РасчетныйДокумент</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="1f970387-72cb-4527-a407-4455b99edd5a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

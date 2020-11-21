@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5de51827-2fb3-4286-93e0-c64c37fb1356">
+  <producedTypes>
+    <managerType typeId="3814bf19-fed1-44e2-aeb5-64708be8ffc8" valueTypeId="940ca5f1-6166-49a6-a41d-55ece5d8c044"/>
+    <valueManagerType typeId="b5f3fafa-7ea4-4cb7-aecb-66aba889c263" valueTypeId="85a1deea-e7b6-4467-b5fb-e0bd0ef0dc33"/>
+    <valueKeyType typeId="dad09378-aea7-49b5-8562-a46326fb1fa2" valueTypeId="b3e0a84c-d816-445d-880b-2f1c9de31064"/>
+  </producedTypes>
+  <name>ИспользоватьНесколькоСкладов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать несколько складов</value>
+  </synonym>
+  <dataHistory>Use</dataHistory>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ИспользоватьНесколькоСкладов</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
+</mdclass:Constant>

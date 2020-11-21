@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f7d2b8a-e6ab-4c97-a24c-e069e8b46b8d">
+  <producedTypes>
+    <managerType typeId="938289a1-3fb6-4ffc-85c4-27d218e291e1" valueTypeId="90e31856-e2df-4685-97a7-2274e3384a9f"/>
+    <valueManagerType typeId="f2cb8461-4e59-40f3-be34-3f7ba27dea25" valueTypeId="f1e5ea25-208e-4f5c-9d5d-706ce4cb0621"/>
+    <valueKeyType typeId="e710e414-e548-48c5-aaf2-b63f58563387" valueTypeId="022cd396-fbe3-478d-bdae-80a72f200012"/>
+  </producedTypes>
+  <name>ИспользоватьНесколькоКасс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать несколько касс</value>
+  </synonym>
+  <dataHistory>Use</dataHistory>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ИспользоватьНесколькоКасс</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
+</mdclass:Constant>

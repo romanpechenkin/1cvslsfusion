@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bc68ac3-9ab3-4992-9aca-a6857dc20424">
+  <producedTypes>
+    <managerType typeId="c5b934e0-757a-40a8-9e62-5b2afc93c990" valueTypeId="9f23c60c-d1e4-4438-968c-75a3d3ebe427"/>
+    <valueManagerType typeId="acb76768-d1bc-4565-a88a-573482ed2978" valueTypeId="8978dfb4-a403-4dd7-8090-60b65b5ca6fd"/>
+    <valueKeyType typeId="27a001bd-8fee-4610-8e86-13e115444894" valueTypeId="0724c80c-563f-47be-89de-246822ae29bb"/>
+  </producedTypes>
+  <name>СкладПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склад по умолчанию</value>
+  </synonym>
+  <dataHistory>Use</dataHistory>
+  <type>
+    <types>CatalogRef.Склады</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
+</mdclass:Constant>
